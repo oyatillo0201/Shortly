@@ -179,6 +179,45 @@ img {
 /* SEARCH */
 
 
+/* CTA */
+.cta {
+  padding-top: 57px;
+  padding-bottom: 57px;
+  background-color: #3A3054;
+  background-image: url("../img/cta-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.cta__heading {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 32px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.cta__button {
+  text-align: center;
+}
+
+.btn {
+  padding: 14px 40px 12px 40px;
+  border-radius: 28px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  background-color: #2BD0D0;
+  color: #FFFFFF;
+}
+
 
 /* FOOTER */
 .site-footer {
