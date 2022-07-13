@@ -407,6 +407,7 @@ img {
   font-size: 40px;
   line-height: 48px;
   color: var(--text-color-dark);
+  text-transform: capitalize;
 }
 
 .index-features__top-info {
@@ -453,6 +454,8 @@ img {
   margin-top: 88px;
 }
 
+
+/* INDEX-FEATURE */
 .index-feature {
   position: relative;
   padding: 77px 32px 40px;
@@ -479,6 +482,7 @@ img {
   font-size: 22px;
   line-height: normal;
   color: var(--text-color-dark);
+  text-transform: capitalize;
 }
 
 .index-feature__info {
