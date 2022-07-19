@@ -1,7 +1,9 @@
 const elUrlShortenerForm = document.querySelector('.js-url-shortener-form');
 
-elUrlShortenerForm.addEventListener('sumbit', function (evt) {
+const elUrlShortenerResults = document.querySelector('.url-shortener__results')
+
+elUrlShortenerForm.addEventListener('submit', function (evt) {
   evt.preventDefault();
 
-  console.log('test');
+  elUrlShortenerResults.classList.add('url-shortener__results--open')
 });
